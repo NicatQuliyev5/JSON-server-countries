@@ -1,9 +1,60 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "countries": [
+    {
+      "id": "1",
+      "name": "Azerbaijan",
+      "population": 10000000,
+      "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/800px-Flag_of_Azerbaijan.svg.png",
+      "capital": "Baku",
+      "description": "Azerbaijan,[a] officially the Republic of Azerbaijan,[b] is a transcontinental country located at the boundary of Eastern Europe and West Asia.[9] It is a part of the South Caucasus region and is bounded by the Caspian Sea to the east, Russia's republic of Dagestan to the north, Georgia to the northwest, Armenia and Turkey to the west, and Iran to the south. Baku is the capital and largest city."
+    },
+    {
+      "id": "2",
+      "name": "Turkiye",
+      "population": 85000000,
+      "flagImg": "https://cdn.britannica.com/82/4782-050-8129909C/Flag-Turkey.jpg",
+      "capital": "Ankara",
+      "description": "Turkey,[a] officially the Republic of Türkiye,[b] is a country mainly in Anatolia in West Asia, with a smaller part called East Thrace in Southeast Europe. It borders the Black Sea to the north; Georgia, Armenia, Azerbaijan, and Iran to the east; Iraq, Syria, and the Mediterranean Sea (and Cyprus) to the south; and the Aegean Sea, Greece, and Bulgaria to the west."
+    },
+    {
+      "id": "3",
+      "name": "England",
+      "population": 56000000,
+      "flagImg": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/1200px-Flag_of_England.svg.png",
+      "capital": "London",
+      "description": "England is a country that is part of the United Kingdom.[6] The co Britain, of which it covers roughly 62%, and over 100 smaller adjacent islands. It has land borders with Scotland to the north and Wales to the west, and is otherwise surrounded by the North Sea to the east, the English Channel to the south, the Celtic Sea to the south-west, and the Irish sea to the west."
+    },
+    {
+      "id": "4",
+      "name": "Brazil",
+      "population": 203000000,
+      "flagImg": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/640px-Flag_of_Brazil.svg.png",
+      "capital": "Brazilia",
+      "description": "Brazil,[b] officially the Federative Republic of Brazil,[c] is the. The federation is composed of the union of the 26 states and the Federal District. It is the only country in the Americas to have Portuguese as an official language.[10][11] Brazil is one of the most multicultural and ethnically diverse nations, due to over a century of mass immigration from around the world.[12]"
+    },
+    {
+      "id": "1dd0",
+      "name": "Italy",
+      "population": "58772861",
+      "description": "It is the tenth-largest country by land area in the European continent, covering an area of 301,340 km2 (116,350 sq mi), and the third-most populous member ...",
+      "capital": "Roma",
+      "flagImg": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/800px-Flag_of_Italy.svg.png"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "users": [
+    {
+      "id": "1",
+      "username": "nijatt5",
+      "email": "nijattt5@gmail.com",
+      "password": "yaxshi123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "memmedaga",
+      "email": "emi@gmail.com",
+      "password": "qaqas1",
+      "role": "client"
+    }
+  ]
 }
